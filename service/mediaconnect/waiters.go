@@ -5,8 +5,8 @@ package mediaconnect
 import (
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // WaitUntilFlowActive uses the AWS MediaConnect API operation

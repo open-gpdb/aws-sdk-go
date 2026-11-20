@@ -9,9 +9,9 @@
 package rpcserviceiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/private/model/api/codegentest/service/rpcservice"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/private/model/api/codegentest/service/rpcservice"
 )
 
 // RPCServiceAPI provides an interface to enable mocking the

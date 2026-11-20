@@ -3,7 +3,7 @@ package s3manager
 import (
 	"io"
 
-	"github.com/yezzey-gp/aws-sdk-go/internal/sdkio"
+	"github.com/open-gpdb/aws-sdk-go/internal/sdkio"
 )
 
 // BufferedReadSeeker is buffered io.ReadSeeker

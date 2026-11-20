@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/sqs"
-	"github.com/yezzey-gp/aws-sdk-go/service/sqs/sqsiface"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/sqs"
+	"github.com/open-gpdb/aws-sdk-go/service/sqs/sqsiface"
 )
 
 func main() {

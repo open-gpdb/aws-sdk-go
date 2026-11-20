@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
 )
 
 // A Logger is a minimalistic interface for the SDK to log messages to.

@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/awstesting"
+	"github.com/open-gpdb/aws-sdk-go/awstesting"
 )
 
 func TestReadCloserClose(t *testing.T) {

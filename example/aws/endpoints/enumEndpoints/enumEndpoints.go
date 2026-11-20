@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
 )
 
 // Demostrates how the SDK's endpoints can be enumerated over to discover

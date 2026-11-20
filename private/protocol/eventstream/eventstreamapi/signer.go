@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream"
 )
 
 var timeNow = time.Now

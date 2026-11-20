@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws"
 )
 
 func TestResetBody_WithBodyContents(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
 )
 
 // Generates the endpoints from json description

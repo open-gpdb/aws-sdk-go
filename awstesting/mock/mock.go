@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client/metadata"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/client"
+	"github.com/open-gpdb/aws-sdk-go/aws/client/metadata"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
 )
 
 // Session is a mock session which is used to hit the mock server

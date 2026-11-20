@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/endpointcreds"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/unit"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/endpointcreds"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/unit"
 )
 
 func TestRetrieveRefreshableCredentials(t *testing.T) {

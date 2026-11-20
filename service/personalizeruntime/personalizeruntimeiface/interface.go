@@ -9,9 +9,9 @@
 package personalizeruntimeiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/personalizeruntime"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/personalizeruntime"
 )
 
 // PersonalizeRuntimeAPI provides an interface to enable mocking the

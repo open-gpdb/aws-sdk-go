@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restjson"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restjson"
 )
 
 func TestEventWriter(t *testing.T) {

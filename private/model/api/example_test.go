@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/util"
+	"github.com/open-gpdb/aws-sdk-go/private/util"
 )
 
 func buildAPI() *API {
@@ -165,7 +165,7 @@ func buildAPI() *API {
 		ServiceAbbreviation: "FooService",
 	}
 
-	a.BaseImportPath = "github.com/yezzey-gp/aws-sdk-go/service/"
+	a.BaseImportPath = "github.com/open-gpdb/aws-sdk-go/service/"
 
 	a.Setup()
 	return a
@@ -245,9 +245,9 @@ func TestExampleGeneration(t *testing.T) {
 	"fmt"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/fooservice"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/fooservice"
 )
 
 var _ time.Duration

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/corehandlers"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting"
+	"github.com/open-gpdb/aws-sdk-go/aws/corehandlers"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/awstesting"
 )
 
 func TestRequest_SetContext(t *testing.T) {

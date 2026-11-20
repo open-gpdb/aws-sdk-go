@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/internal/ini"
-	"github.com/yezzey-gp/aws-sdk-go/internal/shareddefaults"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/internal/ini"
+	"github.com/open-gpdb/aws-sdk-go/internal/shareddefaults"
 )
 
 // SharedCredsProviderName provides a name of SharedCreds provider

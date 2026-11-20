@@ -1,6 +1,6 @@
 package sqs
 
-import "github.com/yezzey-gp/aws-sdk-go/aws/request"
+import "github.com/open-gpdb/aws-sdk-go/aws/request"
 
 func init() {
 	initRequest = func(r *request.Request) {

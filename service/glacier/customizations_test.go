@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/awsutil"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/unit"
-	"github.com/yezzey-gp/aws-sdk-go/service/glacier"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/awsutil"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/unit"
+	"github.com/open-gpdb/aws-sdk-go/service/glacier"
 )
 
 var (

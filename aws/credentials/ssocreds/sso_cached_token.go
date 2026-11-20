@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/yezzey-gp/aws-sdk-go/internal/shareddefaults"
+	"github.com/open-gpdb/aws-sdk-go/internal/shareddefaults"
 	"io/ioutil"
 	"os"
 	"path/filepath"

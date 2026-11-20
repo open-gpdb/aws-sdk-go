@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/ec2query"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/jsonrpc"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/query"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restjson"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restxml"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/ec2query"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/query"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restjson"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restxml"
 )
 
 type mockCloser struct {

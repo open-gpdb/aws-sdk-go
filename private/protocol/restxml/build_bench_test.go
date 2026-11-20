@@ -12,14 +12,14 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restxml"
-	"github.com/yezzey-gp/aws-sdk-go/service/cloudfront"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restxml"
+	"github.com/open-gpdb/aws-sdk-go/service/cloudfront"
+	"github.com/open-gpdb/aws-sdk-go/service/s3"
 )
 
 var (

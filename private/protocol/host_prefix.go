@@ -3,8 +3,8 @@ package protocol
 import (
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // HostPrefixHandlerName is the handler name for the host prefix request

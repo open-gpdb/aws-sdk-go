@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/unit"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/unit"
 )
 
 func TestRestGETStrategy(t *testing.T) {

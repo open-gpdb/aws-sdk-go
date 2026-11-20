@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // NoOpRetryer provides a retryer that performs no retries.

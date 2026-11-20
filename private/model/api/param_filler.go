@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/util"
+	"github.com/open-gpdb/aws-sdk-go/private/util"
 )
 
 // A paramFiller provides string formatting for a shape and its types.

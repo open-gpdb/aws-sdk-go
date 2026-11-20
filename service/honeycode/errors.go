@@ -3,7 +3,7 @@
 package honeycode
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
 )
 
 const (

@@ -3,8 +3,8 @@ package s3err
 import (
 	"fmt"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // RequestFailure provides additional S3 specific metadata for the request

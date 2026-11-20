@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/json/jsonutil"
 )
 
 func TestUnmarshalJSON_JSONNumber(t *testing.T) {

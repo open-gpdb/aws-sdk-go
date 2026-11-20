@@ -1,7 +1,7 @@
 package v4
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/internal/strings"
+	"github.com/open-gpdb/aws-sdk-go/internal/strings"
 )
 
 // validator houses a set of rule needed for validation of a

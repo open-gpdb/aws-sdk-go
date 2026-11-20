@@ -9,9 +9,9 @@
 package marketplacecommerceanalyticsiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/marketplacecommerceanalytics"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/marketplacecommerceanalytics"
 )
 
 // MarketplaceCommerceAnalyticsAPI provides an interface to enable mocking the
