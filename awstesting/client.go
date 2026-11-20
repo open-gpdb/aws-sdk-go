@@ -1,10 +1,10 @@
 package awstesting
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client/metadata"
-	"github.com/yezzey-gp/aws-sdk-go/aws/defaults"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/client"
+	"github.com/open-gpdb/aws-sdk-go/aws/client/metadata"
+	"github.com/open-gpdb/aws-sdk-go/aws/defaults"
 )
 
 // NewClient creates and initializes a generic service client for testing.

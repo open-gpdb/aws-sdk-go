@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/ec2"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/ec2"
 )
 
 // This example will list instances with a filter

@@ -9,9 +9,9 @@
 package elbv2iface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/elbv2"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/elbv2"
 )
 
 // ELBV2API provides an interface to enable mocking the

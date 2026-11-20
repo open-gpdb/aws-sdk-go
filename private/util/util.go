@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/xml/xmlutil"
 )
 
 // GoFmt returns the Go formated string of the input.

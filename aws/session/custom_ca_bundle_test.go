@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/awstesting"
 )
 
 var TLSBundleCertFile string

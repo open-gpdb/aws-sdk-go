@@ -17,16 +17,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/yezzey-gp/aws-sdk-go/aws/defaults"
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/internal/sdktesting"
-	"github.com/yezzey-gp/aws-sdk-go/internal/shareddefaults"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/service/sts"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/open-gpdb/aws-sdk-go/aws/defaults"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/internal/sdktesting"
+	"github.com/open-gpdb/aws-sdk-go/internal/shareddefaults"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/service/sts"
 )
 
 func newEc2MetadataServer(key, secret string, closeAfterGetCreds bool) *httptest.Server {

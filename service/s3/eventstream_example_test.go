@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
 )
 
 func ExampleS3_SelectObjectContent() {

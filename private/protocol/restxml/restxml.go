@@ -9,11 +9,11 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/query"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/rest"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/query"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/rest"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/xml/xmlutil"
 )
 
 // BuildHandler is a named request handler for building restxml protocol requests

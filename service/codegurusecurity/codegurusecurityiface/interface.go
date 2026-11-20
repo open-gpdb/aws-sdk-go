@@ -9,9 +9,9 @@
 package codegurusecurityiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/codegurusecurity"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/codegurusecurity"
 )
 
 // CodeGuruSecurityAPI provides an interface to enable mocking the

@@ -6,9 +6,9 @@ package ec2query
 import (
 	"net/url"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/query/queryutil"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/query/queryutil"
 )
 
 // BuildHandler is a named request handler for building ec2query protocol requests

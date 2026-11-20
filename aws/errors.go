@@ -1,6 +1,6 @@
 package aws
 
-import "github.com/yezzey-gp/aws-sdk-go/aws/awserr"
+import "github.com/open-gpdb/aws-sdk-go/aws/awserr"
 
 var (
 	// ErrMissingRegion is an error that is returned if region configuration is

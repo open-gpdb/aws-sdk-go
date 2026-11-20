@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/s3manager"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/s3manager"
 )
 
 type Config struct {

@@ -3,7 +3,7 @@ package s3crypto
 import (
 	"io"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws"
 )
 
 // ContentCipherBuilder is a builder interface that builds

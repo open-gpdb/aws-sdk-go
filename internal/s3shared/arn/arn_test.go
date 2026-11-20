@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/arn"
+	"github.com/open-gpdb/aws-sdk-go/aws/arn"
 )
 
 func TestParseResource(t *testing.T) {

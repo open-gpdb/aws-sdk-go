@@ -9,9 +9,9 @@
 package simpledbiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/simpledb"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/simpledb"
 )
 
 // SimpleDBAPI provides an interface to enable mocking the

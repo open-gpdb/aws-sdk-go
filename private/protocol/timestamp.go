@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/internal/sdkmath"
+	"github.com/open-gpdb/aws-sdk-go/internal/sdkmath"
 )
 
 // Names of time formats supported by the SDK

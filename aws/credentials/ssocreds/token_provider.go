@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/auth/bearer"
-	"github.com/yezzey-gp/aws-sdk-go/service/ssooidc"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/auth/bearer"
+	"github.com/open-gpdb/aws-sdk-go/service/ssooidc"
 )
 
 // CreateTokenAPIClient provides the interface for the SSOTokenProvider's API

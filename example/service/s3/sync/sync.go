@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/s3manager"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/s3manager"
 )
 
 // SyncFolderIterator is used to upload a given folder

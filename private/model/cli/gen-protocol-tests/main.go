@@ -17,8 +17,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/model/api"
-	"github.com/yezzey-gp/aws-sdk-go/private/util"
+	"github.com/open-gpdb/aws-sdk-go/private/model/api"
+	"github.com/open-gpdb/aws-sdk-go/private/util"
 )
 
 // TestSuiteTypeInput input test
@@ -121,11 +121,11 @@ var extraImports = []string{
 	"reflect",
 	"net/url",
 	"",
-	"github.com/yezzey-gp/aws-sdk-go/awstesting",
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/unit",
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol",
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/xml/xmlutil",
-	"github.com/yezzey-gp/aws-sdk-go/private/util",
+	"github.com/open-gpdb/aws-sdk-go/awstesting",
+	"github.com/open-gpdb/aws-sdk-go/awstesting/unit",
+	"github.com/open-gpdb/aws-sdk-go/private/protocol",
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/xml/xmlutil",
+	"github.com/open-gpdb/aws-sdk-go/private/util",
 }
 
 func addImports(code string) string {

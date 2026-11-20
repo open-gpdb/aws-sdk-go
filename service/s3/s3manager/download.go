@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/awsutil"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/s3iface"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/awsutil"
+	"github.com/open-gpdb/aws-sdk-go/aws/client"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/s3"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/s3iface"
 )
 
 // DefaultDownloadPartSize is the default range of bytes to get at a time when

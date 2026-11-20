@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/model/api"
+	"github.com/open-gpdb/aws-sdk-go/private/model/api"
 )
 
 func main() {

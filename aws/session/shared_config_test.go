@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
-	"github.com/yezzey-gp/aws-sdk-go/internal/ini"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/internal/ini"
 )
 
 var (

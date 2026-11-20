@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/rds/rdsutils"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/rds/rdsutils"
 )
 
 // ExampleConnectionStringBuilder contains usage of assuming a role and using

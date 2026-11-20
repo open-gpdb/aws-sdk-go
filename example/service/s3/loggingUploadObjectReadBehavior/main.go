@@ -10,9 +10,9 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/s3manager"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/s3manager"
 )
 
 // Usage:

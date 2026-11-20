@@ -5,8 +5,8 @@ package docdb
 import (
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // WaitUntilDBInstanceAvailable uses the Amazon DocDB API operation

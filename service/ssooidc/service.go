@@ -3,13 +3,13 @@
 package ssooidc
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client/metadata"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/aws/signer/v4"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restjson"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/client"
+	"github.com/open-gpdb/aws-sdk-go/aws/client/metadata"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/signer/v4"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restjson"
 )
 
 // SSOOIDC provides the API operation methods for making requests to

@@ -5,16 +5,16 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/client/metadata"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/ec2query"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/jsonrpc"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/query"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/rest"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restjson"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/restxml"
+	"github.com/open-gpdb/aws-sdk-go/aws/client/metadata"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/awstesting"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/ec2query"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/query"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/rest"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restjson"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/restxml"
 )
 
 func xmlData(set bool, b []byte, size, delta int) {

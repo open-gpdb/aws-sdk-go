@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 func TestGzipRequestHandler(t *testing.T) {

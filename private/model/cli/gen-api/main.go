@@ -17,8 +17,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/model/api"
-	"github.com/yezzey-gp/aws-sdk-go/private/util"
+	"github.com/open-gpdb/aws-sdk-go/private/model/api"
+	"github.com/open-gpdb/aws-sdk-go/private/util"
 )
 
 func usage() {

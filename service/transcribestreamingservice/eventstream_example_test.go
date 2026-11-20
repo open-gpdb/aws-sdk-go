@@ -8,8 +8,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/session"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/session"
 )
 
 func ExampleTranscribeStreamingService_StartStreamTranscription_streamAudio() {

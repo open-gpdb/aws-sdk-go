@@ -5,8 +5,8 @@ package rest
 
 import (
 	"bytes"
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 	"io/ioutil"
 	"math"
 	"net/http"

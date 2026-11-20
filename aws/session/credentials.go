@@ -5,17 +5,17 @@ import (
 	"os"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/processcreds"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/ssocreds"
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/yezzey-gp/aws-sdk-go/aws/defaults"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/internal/shareddefaults"
-	"github.com/yezzey-gp/aws-sdk-go/service/ssooidc"
-	"github.com/yezzey-gp/aws-sdk-go/service/sts"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/processcreds"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/ssocreds"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/open-gpdb/aws-sdk-go/aws/defaults"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/internal/shareddefaults"
+	"github.com/open-gpdb/aws-sdk-go/service/ssooidc"
+	"github.com/open-gpdb/aws-sdk-go/service/sts"
 )
 
 // CredentialsProviderOptions specifies additional options for configuring

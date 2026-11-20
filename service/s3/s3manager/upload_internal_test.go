@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/unit"
-	"github.com/yezzey-gp/aws-sdk-go/internal/sdkio"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/internal/s3testing"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/unit"
+	"github.com/open-gpdb/aws-sdk-go/internal/sdkio"
+	"github.com/open-gpdb/aws-sdk-go/service/s3"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/internal/s3testing"
 )
 
 const respBody = `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,12 +1,12 @@
 package s3control
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/client"
-	"github.com/yezzey-gp/aws-sdk-go/aws/endpoints"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/internal/s3shared/arn"
-	"github.com/yezzey-gp/aws-sdk-go/internal/s3shared/s3err"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/client"
+	"github.com/open-gpdb/aws-sdk-go/aws/endpoints"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/internal/s3shared/arn"
+	"github.com/open-gpdb/aws-sdk-go/internal/s3shared/s3err"
 )
 
 func init() {

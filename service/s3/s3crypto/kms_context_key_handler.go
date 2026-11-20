@@ -3,9 +3,9 @@ package s3crypto
 import (
 	"fmt"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/service/kms"
-	"github.com/yezzey-gp/aws-sdk-go/service/kms/kmsiface"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/service/kms"
+	"github.com/open-gpdb/aws-sdk-go/service/kms/kmsiface"
 )
 
 const (

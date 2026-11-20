@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream"
 )
 
 type mockChunkSigner struct {

@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
 )
 
 // ShapeValueBuilder provides the logic to build the nested values for a shape.

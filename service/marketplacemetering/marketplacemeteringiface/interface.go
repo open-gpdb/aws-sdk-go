@@ -9,9 +9,9 @@
 package marketplacemeteringiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/marketplacemetering"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/marketplacemetering"
 )
 
 // MarketplaceMeteringAPI provides an interface to enable mocking the

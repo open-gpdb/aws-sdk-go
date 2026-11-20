@@ -9,9 +9,9 @@
 package cloudfrontkeyvaluestoreiface
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/service/cloudfrontkeyvaluestore"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/service/cloudfrontkeyvaluestore"
 )
 
 // CloudFrontKeyValueStoreAPI provides an interface to enable mocking the

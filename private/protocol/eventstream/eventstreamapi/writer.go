@@ -1,8 +1,8 @@
 package eventstreamapi
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream"
 )
 
 // Marshaler provides a marshaling interface for event types to event stream

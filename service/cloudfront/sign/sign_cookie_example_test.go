@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/mock"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/mock"
 )
 
 func examplePEMReader() io.Reader {

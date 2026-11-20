@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting"
-	"github.com/yezzey-gp/aws-sdk-go/awstesting/integration"
-	"github.com/yezzey-gp/aws-sdk-go/internal/sdkio"
-	"github.com/yezzey-gp/aws-sdk-go/service/s3/s3manager"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/awstesting"
+	"github.com/open-gpdb/aws-sdk-go/awstesting/integration"
+	"github.com/open-gpdb/aws-sdk-go/internal/sdkio"
+	"github.com/open-gpdb/aws-sdk-go/service/s3/s3manager"
 )
 
 var benchConfig BenchmarkConfig

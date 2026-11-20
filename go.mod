@@ -1,4 +1,4 @@
-module github.com/yezzey-gp/aws-sdk-go
+module github.com/open-gpdb/aws-sdk-go
 
 go 1.19
 

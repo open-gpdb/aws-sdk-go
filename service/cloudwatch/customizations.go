@@ -1,8 +1,8 @@
 package cloudwatch
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
-	"github.com/yezzey-gp/aws-sdk-go/internal/encoding/gzip"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/internal/encoding/gzip"
 )
 
 // WithGzipRequest is a request.Option that adds a request handler to the Build

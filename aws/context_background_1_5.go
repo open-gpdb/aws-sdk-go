@@ -4,7 +4,7 @@
 package aws
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/internal/context"
+	"github.com/open-gpdb/aws-sdk-go/internal/context"
 )
 
 // BackgroundContext returns a context that will never be canceled, has no

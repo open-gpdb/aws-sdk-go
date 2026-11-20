@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol/eventstream"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol/eventstream"
 )
 
 // AssertMessageEqual compares to event stream messages, and determines if they

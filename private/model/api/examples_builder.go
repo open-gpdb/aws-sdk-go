@@ -6,7 +6,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/yezzey-gp/aws-sdk-go/private/protocol"
+	"github.com/open-gpdb/aws-sdk-go/private/protocol"
 )
 
 type examplesBuilder interface {

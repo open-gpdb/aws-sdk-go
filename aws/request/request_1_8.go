@@ -6,7 +6,7 @@ package request
 import (
 	"net/http"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/awserr"
+	"github.com/open-gpdb/aws-sdk-go/aws/awserr"
 )
 
 // NoBody is a http.NoBody reader instructing Go HTTP client to not include

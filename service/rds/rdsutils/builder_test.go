@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws/credentials"
-	"github.com/yezzey-gp/aws-sdk-go/service/rds/rdsutils"
+	"github.com/open-gpdb/aws-sdk-go/aws/credentials"
+	"github.com/open-gpdb/aws-sdk-go/service/rds/rdsutils"
 )
 
 func TestConnectionStringBuilder(t *testing.T) {

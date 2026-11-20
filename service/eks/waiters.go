@@ -5,8 +5,8 @@ package eks
 import (
 	"time"
 
-	"github.com/yezzey-gp/aws-sdk-go/aws"
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 )
 
 // WaitUntilAddonActive uses the Amazon EKS API operation

@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/yezzey-gp/aws-sdk-go/aws/request"
+	"github.com/open-gpdb/aws-sdk-go/aws/request"
 	"net"
 	"strconv"
 	"strings"
